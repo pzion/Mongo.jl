@@ -18,7 +18,7 @@ provides(
     os = :Unix
     )
             
-@osx_only begin
+@static if is_apple()
     using Homebrew
     provides(Homebrew.HB, Dict("mongo-c-driver" => libmongoc))
 end
