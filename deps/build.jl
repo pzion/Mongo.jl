@@ -20,7 +20,7 @@ provides(
             
 @osx_only begin
     using Homebrew
-    provides(Homebrew.HB, Dict("mongo-c" => libmongoc))
+    provides(Homebrew.HB, Dict("mongo-c-driver" => libmongoc))
 end
 
 @BinDeps.install Dict(:libmongoc => :libmongoc)
