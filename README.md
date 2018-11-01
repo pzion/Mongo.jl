@@ -6,7 +6,7 @@ Mongo.jl
 [![0.6 Status](http://pkg.julialang.org/badges/Mongo_0.6.svg)](http://pkg.julialang.org/?pkg=Mongo)
 [![Coverage Status](https://img.shields.io/coveralls/ScottPJones/Mongo.jl.svg)](https://coveralls.io/r/ScottPJones/Mongo.jl?branch=master)
 
-[MongoDB](http://www.mongodb.org) bindings for [The Julia Language](http://julialang.org/)
+[MongoDB](http://www.mongodb.org) bindings for [The Julia Language](http://julialang.org/). You may however want to use the newer [[Mongoc]](https://github.com/felipenoris/Mongoc.jl).
 
 
 License
